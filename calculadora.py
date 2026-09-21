@@ -59,7 +59,7 @@ while decisao == 's':
     print('7 - raiz quadrada')
     print('8 - raiz cúbica')
     print("9 - sair")
-    escolha = input('Escolha uma opção:')
+    escolha = int(input('Escolha uma opção:'))
     contador = 0
     match escolha:
         case 1: 
