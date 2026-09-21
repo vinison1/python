@@ -59,46 +59,46 @@ while decisao == 's':
     print('7 - raiz quadrada')
     print('8 - raiz cúbica')
     print("9 - sair")
-    escolha = input('Escolha uma opção:')
+    escolha = int(input('Escolha uma opção:'))
     contador = 0
     match escolha:
-        case '1': 
+        case 1: 
             num1 = int(input("Digite o primeiro numero:"))
             num2 = int(input("Digite o segundo numero:"))
             soma(num1,num2)
             
-        case '2':
+        case 2:
             num1 = int(input("Digite o primeiro numero:"))
             num2 = int(input("Digite o segundo numero:"))
             subtracao(num1,num2)
             
-        case '3':
+        case 3:
             num1 = int(input("Digite o primeiro numero:"))
             num2 = int(input("Digite o segundo numero:"))
             multiplicacao(num1,num2)
            
-        case '4':
+        case 4:
             num1 = float(input("Digite o primeiro numero:"))
             num2 = float(input("Digite o segundo numero:"))
             divisao(num1,num2)
                 
-        case '5':
+        case 5:
             num2 = 0
             quantidade = int(input("Digite a quantidade de numeros:"))
             media_aritmetica(quantidade)
           
-        case '6':
+        case 6:
             num1 = float(input("Digite a base:"))
             num2 = float(input("Digite o expoente:"))
             potenciacao(num1,num2)   
          
-        case '7':
+        case 7:
             num1 = float(input("Digite um numero:"))
             raiz_quadrada(num1)
-        case '8':
+        case 8:
             num1 = int(input("Digite um numero:"))
             raiz_cubica(num1)
-        case '9':
+        case 9:
             print("Saindo da calculadora...")
             decisao = False
             
