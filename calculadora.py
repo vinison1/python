@@ -100,6 +100,6 @@ while decisao == 's':
             raiz_cubica(num1)
         case 9:
             print("Saindo da calculadora...")
-            decisao = False
+            decisao = 'n'
             
 
