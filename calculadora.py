@@ -101,5 +101,6 @@ while decisao == 's':
         case 9:
             print("Saindo da calculadora...")
             decisao = 'n'
+#teste
             
 
